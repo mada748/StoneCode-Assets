@@ -18,5 +18,5 @@ echo "I I     I I   EEEEE"
 echo ""
 echo ""
 echo ""
-echo "if you want to only run the browser file do: bash run.bash
+echo "if you want to only run the browser file do: bash run.bash"
 python3 browser.py
