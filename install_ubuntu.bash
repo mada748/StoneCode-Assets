@@ -5,8 +5,9 @@ echo "Installing Required Dependices"
 sudo apt install python3
 pip install PyQt5
 pip install PyQtWebEngine
+curl -s https://stonecode-assets.netlify.app/run.bash
 echo "Dependices installed"
-echo "Starting run.bash"
+echo "Starting fedora.bash"
 echo "I I     I I   EEEEE"
 echo "I I I I I I   E   E"
 echo "I I I I I I   E E E"
@@ -14,4 +15,8 @@ echo "I I     I I   EEEEE"
 echo "I I     I I   E   E"
 echo "I I     I I   E E E"
 echo "I I     I I   EEEEE"
-bash run.bash
+echo ""
+echo ""
+echo ""
+echo "if you want to only run the browser file do: bash run.bash"
+python3 browser.py
