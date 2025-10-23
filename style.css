@@ -29,7 +29,10 @@ body {
 }
 
 .dashboar-container iframe {
-    postion: relative;
+    width: 80%; 
+    display: block;
+    margin: 0 auto;
+    height: 400px;
 }
 
 .dashboard-header p {
