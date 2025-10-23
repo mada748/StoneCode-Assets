@@ -28,6 +28,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.dashboar-container iframe {
+    postion: relative;
+}
+
 .dashboard-header p {
     font-size: 1rem;
     color: var(--color-text-medium);
