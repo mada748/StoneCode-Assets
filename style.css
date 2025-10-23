@@ -28,7 +28,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.dashboar-container iframe {
+.dashboard-container iframe {
     width: 80%; 
     display: block;
     margin: 0 auto;
