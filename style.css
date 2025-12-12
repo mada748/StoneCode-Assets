@@ -2,6 +2,7 @@ body {
     background-color: floralwhite;
 }
 .note {
+    border-radius: 10px;
     position: relative;
     background-color: lightslategray;
 }
