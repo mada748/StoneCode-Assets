@@ -1,73 +1,35 @@
-:root {
-    --color-text-dark: #111827;
-    --color-text-medium: #6B7280;
-    --color-bg-light: #f7f9fc;
-    --color-border-light: #e5e7eb;
-    --color-surface: #ffffff;
-    --padding-main: 24px;
-}
-
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--color-bg-light);
-    color: var(--color-text-dark);
+    background-image: url(Acacia_confusa-01.jpg);
 }
 
-.dashboard-container {
-    box-shadow: 0 0 15px #22223b, 0 0 5px var(--color-text-dark);
-    border-radius: 6px;
-    border-color: black;
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: var(--padding-main);
+.gigi {
+    background-color: black;
+    color: blue;
 }
-
-.dashboard-header h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
+.bottone {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #00a2ff;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 162, 255, 0.4);
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
-
-.dashboard-container iframe {
-    width: 80%; 
-    display: block;
-    margin: 0 auto;
-    height: 400px;
+.bottone:hover {
+    background-color: #0086cc;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 134, 204, 0.6);
 }
-
-.dashboard-header p {
-    font-size: 1rem;
-    color: var(--color-text-medium);
-    margin-bottom: 24px;
-    border-bottom: 1px solid var(--color-border-light);
-    padding-bottom: 16px;
+.fine {
+    color: bisque;
+    position: relative;
+    width: 100%;
+    font-size: 99%;
 }
-
-.status-board {
-    background-color: var(--color-surface);
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    margin-bottom: 32px;
-    padding: 0 var(--padding-main);
-}
-
-.status-board-header {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--color-text-medium);
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-bottom: 1px solid var(--color-border-light);
-    margin-bottom: 5px;
-}
-
-.status-item {
-    display: flex;
-    align-items: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #F3F4F6;
-}
-
-.status-it
