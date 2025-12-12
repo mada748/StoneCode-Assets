@@ -2,9 +2,8 @@ body {
     background-color: floralwhite;
 }
 .note {
-    position: fixed;
+    position: relative;
     background-color: lightslategray;
-    font-style: italic;
 }
 .gigi {
     background-color: black;
