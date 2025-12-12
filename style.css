@@ -1,0 +1,39 @@
+body {
+    background-color: floralwhite;
+}
+.note {
+    position: fixed;
+    background-color: lightslategray;
+    font-style: italic;
+}
+.gigi {
+    background-color: black;
+    color: blue;
+}
+.bottone {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #00a2ff;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 162, 255, 0.4);
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+.bottone:hover {
+    background-color: #0086cc;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 134, 204, 0.6);
+}
+.fine {
+    color: bisque;
+    position: relative;
+    width: 100%;
+    font-size: 99%;
+}
