@@ -1,0 +1,33 @@
+Privacy Policy for Logs Center
+
+Last Updated: 12/29/2025
+1. Information We Collect
+
+To provide moderation services, Logs Center accesses and stores:
+
+    Message Content: The text of messages sent in the server.
+
+    User Data: Discord User IDs and Usernames.
+
+    Metadata: Message IDs, timestamps, and channel IDs.
+
+2. How We Use Your Data
+
+This data is collected solely for moderation purposes (e.g., helping server staff track deleted or edited messages to prevent harassment or spam). We do not sell this data or use it for advertising.
+3. Data Retention 
+
+We respect your privacy by minimizing data storage.
+
+    All logged message content is automatically deleted after 7 days.
+
+4. Data Access and Security
+
+Access to these logs is restricted to the bot owner and authorized server moderators. We use Secure Self-hosted secure servers to ensure your data is not accessed by unauthorized parties.
+
+5. Your Rights (Access and Deletion)
+
+Under laws like GDPR, you have the right to request access to or deletion of your data. To make a request, please:
+
+    Contact UpsidedownProduction.
+
+    We will process deletion requests within 48 hours (excluing Saturday and Sunday.
